@@ -188,8 +188,8 @@ def save_data(data, path):
 
 
 def main():
-    username = "KlasraRauf"
-    info_path = f"D:\\Huzaifa\\ai\\AI\\COVID\\twitter\\{username}\\followers"
+    username = ""
+    info_path = f""
 
     lookup_using_bearer(username, info_path)
 
